@@ -10,7 +10,7 @@ menu = st.sidebar.radio(
 )
 
 
-df = pd.read_csv("online_retail.csv", encoding="ISO-8859-1")
+df = pd.read_csv("online_retail_small.csv", encoding="ISO-8859-1")
 
 if menu == "Home":
         st.title("🏠 Welcome to Shopper Spectrum")
